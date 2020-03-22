@@ -1,0 +1,95 @@
+html {
+    box-sizing: border-box;
+}
+body {
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 20px;
+    background-color: #FAFBFC;
+}
+nav {
+    background-color: #C6CBD1;
+    height: 35px;
+    border-bottom: 2px solid #959DA5;
+}
+nav a {
+    text-decoration: none;
+    color: #000000;
+    font-size: 28px;
+    margin: 5px 8px;
+}
+nav a:hover {
+    font-weight: bolder;
+}
+.main {
+    display: flex;
+    justify-content: space-around;
+}
+.main .left {
+    border: 2px solid #959DA5;
+    height: 335px;
+    width: 250px;
+    margin-top: 15px;
+    background-color: #FFFFFF;
+}
+.main .left ul {
+    list-style-type: none;
+    line-height: 20px;
+    padding-left: 5px;
+    margin-top: 5px;
+}
+.main .left li {
+    padding: 3px 0;
+}
+.main .left a {
+    text-decoration: none;
+    color: #7A829C;
+}
+.main .left a:hover {
+    text-decoration: underline;
+}
+.main .right {
+    margin: 15px 0 40px 0;
+    text-align: left;
+}
+table { 
+    border: 2px solid #959DA5;
+    width: 1200px;
+}
+.main .right table tr td {
+    height: 150px;
+    padding-left: 5px;
+    color: #7A829C;
+    background-color: #FFFFFF;
+}
+
+.main .right table th {
+    background-color: #C6CBD1;
+    height: 35px;
+    padding-left: 5px;
+    color: #000000;
+}
+.main .right .border-top-bottom {
+    border-top: 0.3px solid #C6CBD1;
+    border-bottom: 0.3px solid #C6CBD1;
+}
+.main .right .border-bottom {
+    border-bottom: 0.3px solid #C6CBD1;
+}
+.main .right .border-left-right {
+    border-left: 0.3px solid #C6CBD1;
+    border-right: 0.3px solid #C6CBD1;
+}
+.ad {
+    border: 2px solid #959DA5;
+    width: 1350px;
+    text-align: center;
+    font-size: 35px;
+    font-weight: bold;
+    float: right;
+    padding: 30px 0;
+    margin-right: 30px;
+    color: #000000;
+    background-color: #FFFFFF
+}
