@@ -1,0 +1,43 @@
+body {
+	align-center
+	
+}
+
+.input[type=text], select {
+	display: inline-blockblock;
+	width: 100%;
+	background-color: #BD14BD);
+	border-radius: 4px;
+	margin-left: auto;
+	margin-right: auto;
+	margin-bottom: 5%;
+	padding: 12px 20px;
+	
+}
+.select {
+	width: 100%;
+	padding: 16px 20px;
+	boder-radius: 5px;
+	background-color: #f1f1f1;
+	
+.datalist {
+	display: none;
+}
+
+.input[type=submit] {
+	width: 100%;
+	background-color: BD14BD;
+	color: white;
+	border-radius: 4px
+	cursor: pointer;
+}
+.input[type=submit]: hover {
+	
+}
+.div {
+	border-radius:25px;
+	background-color: #ffffff
+	align-center: auto;
+
+}
+	
