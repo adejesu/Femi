@@ -1,0 +1,130 @@
+body{
+	font: 15px/1.5 Ariel, Helvetica, Sans-serif;
+	background-color: #f4f4f4;
+	padding:0;
+	margin:0;
+		
+}  
+
+/*Global */
+.container{
+	width:80%;
+	margin:auto;	
+	overflow:hidden; 
+}
+
+ul{
+	margin:0;
+	padding:0;
+}
+
+.button {
+	height:20px;
+	padding:0;
+	color: Black;
+	font:bold;
+}
+
+/* Header **/
+ header{
+	background:#35424a;
+	color:#ffffff;
+	padding-top:30px;
+	min-height:50px;
+	border-bottom:#e8491d 3px solid;
+}
+header a{
+	color:#ffffff;
+	text-decoration:none;
+	text-transform:uppercase;
+	font-size:16px;
+}
+
+header li{
+	Float:left;
+	Display:inline;
+	padding: 0 20px 0 20px;
+}
+
+header #branding{
+	float:left;
+}
+
+header #branding h1{
+	margin:0;
+}
+
+header nav{
+	Float:right;
+	margin:10px;
+}
+
+header .highlight, header .current a{
+	color:#e8491d;
+	font-weight:bold;
+}
+
+header a:hover{
+	color:blue;
+	font-weight: bold;
+}
+
+/* Showcase  */
+#showcase{
+	 min-height:400px;
+	 background:url('../profile page/RANBOW.jpg') no-repeat;
+	 
+}
+
+#showcase h1{
+	margin-top:20px;
+	font-size:54px;
+	margin-bottom:10px;
+}
+
+#showcase img{
+	float:right;
+	border-radius:50%;
+	width:150px;
+	
+}
+
+/* contact */
+#contact{
+	padding:5px;
+	color:#ffffff;
+	background:#35424a;
+	
+}
+
+#contact form{
+	font:1.0;
+}
+#contact h1{
+	padding:4px;
+	color:#ffffff;
+	font:bold;
+	font-size:25px;
+	margin:0;
+	
+}
+#contact input[type="text"], [type="email"], [type="message title"]{
+	padding:4px;
+	height:25px;
+	width:350px;
+	
+}
+
+#contact textarea[name="message"]{
+	padding:4px;
+	height:100px;
+	width:350px;
+}
+	 
+footer{
+	padding:5px;
+	margin-top:2px;
+	color:#ffffff;
+	background-color:#e8491d;
+	text-align:center;
+}
